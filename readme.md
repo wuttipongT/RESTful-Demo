@@ -69,3 +69,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## CLI
+
+- $ php artisan make:model Article -m
+The -m option is short for --migration and it tells Artisan to create one for our model. Here’s the generated 
+- $ php artisan migrate
+- $ php artisan make:seeder ArticlesTableSeeder
+- $ php artisan db:seed --class=ArticlesTableSeeder
+- $ php artisan db:seed
+- $ php artisan make:controller ArticleController
+- $ php artisan make:migration --table=users adds_api_token_to_users_table
+- $ php artisan migrate
+
+Thank you for https://www.toptal.com/laravel/restful-laravel-api-tutorial
