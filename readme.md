@@ -72,9 +72,7 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 
 ## CLI
 
-- $ php artisan make:model Article -m
-
-The -m option is short for --migration and it tells Artisan to create one for our model. Here’s the generated 
+- $ php artisan make:model Article -m→→The -m option is short for --migration and it tells Artisan to create one for our model. Here’s the generated 
 - $ php artisan migrate
 - $ php artisan make:seeder ArticlesTableSeeder
 - $ php artisan db:seed --class=ArticlesTableSeeder
